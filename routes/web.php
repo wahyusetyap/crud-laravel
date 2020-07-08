@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/data-tables', function(){
-    return view('data-tables');
-});
-
 Route::get('/', function(){
-    return view('admin');
+    return view('layouts.master');
 });
